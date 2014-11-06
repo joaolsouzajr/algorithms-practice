@@ -29,12 +29,13 @@ int main(){
         		if(i != j && 
         			(pecas_part1[i] == pecas_part1[j] || pecas_part1[i] == pecas_part2[j]))
         		{
+        			//printf("%d %d - %d %d  ", pecas_part1[i], pecas_part1[j] ,pecas_part1[i], pecas_part2[j]);
         			++count_pars;
         		}
         	}
         }
         //printf("Pares %d \n", count_pars);
-        if(count_pars >= total_pecas/2){
+        if(count_pars/2 >= total_pecas/2 && count_pars/2 < total_pecas){
         	printf("Teste %d\nsim\n\n",++count_teste);
         }else{
         	printf("Teste %d\nnao\n\n",++count_teste);
