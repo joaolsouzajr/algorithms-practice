@@ -1,6 +1,5 @@
 package jlsj.algopract.amz;
 
-import jlsj.algopract.hr.CustomerReview;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

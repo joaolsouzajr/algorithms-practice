@@ -1,4 +1,4 @@
-package jlsj.algopract.hr;
+package jlsj.algopract.amz;
 
 import java.util.*;
 import java.util.stream.Collectors;
